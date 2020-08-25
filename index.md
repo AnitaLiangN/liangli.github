@@ -42,3 +42,7 @@ Target: x86_64-redhat-linux
 Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/dev/shm/home/centos/rpm/BUILD/gcc-4.8.2-20140120/obj-x86_64-redhat-linux/isl-install --with-cloog=/dev/shm/home/centos/rpm/BUILD/gcc-4.8.2-20140120/obj-x86_64-redhat-linux/cloog-install --with-mpc=/dev/shm/home/centos/rpm/BUILD/gcc-4.8.2-20140120/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
 Thread model: posix
 gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC)
+<h1>php7.2 php.ini中的so模块放在哪里？</h1>
+/etc/php.d/ 
+查询swool版本：php --ri swoole | grep Version
+升级swool：pecl upgrade swoole
