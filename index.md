@@ -46,3 +46,11 @@ gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC)
 /etc/php.d/ 
 查询swool版本：php --ri swoole | grep Version
 升级swool：pecl upgrade swoole
+<h1>php7.2安装gd库扩展</h1>
+1）安装gd依赖库
+2）安装gd库
+在gd文件夹下phpize
+./configure
+make && make install
+3)重新去php安装文件下去重新编译
+./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm --with-fpm-user=www --with-fpm-group=www --with-mysqli --with-pdo-mysql --with-iconv-dir --with-freetype --with-jpeg  --with-png --with-gd --with-zlib --with-libxml-dir=/usr --enable-xml --disable-rpath --enable-bcmath --enable-shmop --enable-sysvsem --enable-inline-optimization --with-curl --enable-mbregex --enable-mbstring --with-openssl --with-mhash --enable-pcntl --enable-sockets --with-xmlrpc --enable-swoole enable-zip --enable-soap --without-pear --with-gettext --disable-fileinfo --enable-maintainer-zts --with-libdir=lib64
