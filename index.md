@@ -54,3 +54,6 @@ gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC)
 make && make install
 3)重新去php安装文件下去重新编译
 ./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm --with-fpm-user=www --with-fpm-group=www --with-mysqli --with-pdo-mysql --with-iconv-dir --with-freetype-dir=/usr/local/freetype --with-jpeg-dir=/usr/local/jpeg  --with-png-dir=/usr/local/png --with-gd-dir=/usr/local/libgd --with-zlib --with-libxml-dir=/usr --enable-xml --disable-rpath --enable-bcmath --enable-shmop --enable-sysvsem --enable-inline-optimization --with-curl --enable-mbregex --enable-mbstring --with-openssl --with-mhash --enable-pcntl --enable-sockets --with-xmlrpc  enable-zip --enable-soap --without-pear --with-gettext --disable-fileinfo --enable-maintainer-zts --with-libdir=lib64
+
+
+<h1>我的测试服务器安装了两个php，我用的是/usr/local/php/bin/php -m</h1>
